@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: rgb(197, 252, 240);
+    height: 10VH;
+    border: 1px solid black;
+}
+
+.logo{
+    display: inline;
+    height: 10vh;
+    width: 6vw;
+    margin-right: 1vw;
+}
+h2{
+    display: inline;
+    color: red;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 5VH;
+}
+main{
+    height: 84.8VH;
+}
+
+.main1{
+    display: flex;
+}
+
+.campaign{
+    display:inline-flex;
+    justify-content: center;
+    height: 80vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+    margin-right: 1vw;
+    width:48vw ;
+    background-color:  rgb(197, 252, 240);
+    border: 1px solid black;
+    
+    
+
+}
+.text{
+    display: flex;
+    height: 10vh;
+    color: red;
+    font-size: x-large;
+    position:absolute ;
+}
+
+.dona{
+    display: inline-flex;
+    justify-content: center;
+    height: 80vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width:46vw ;
+    background-color:  rgb(197, 252, 240);
+    align-items: center;
+    border: 1px solid black;
+}
+
+.donation{
+    height: 70vh;
+    width:40vw ;
+    margin-top: 7vh;
+    border: 2px dotted black;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999
+    
+}
+.btn:hover{
+    background-color: rgb(243, 67, 67);
+    
+}
